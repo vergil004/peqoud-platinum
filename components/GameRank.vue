@@ -62,9 +62,11 @@ export default {
     padding: 2px 10px 2px 28px;
     border-radius: 30px;
     font-size: 12px;
+    line-height: 10px;
     display: none;
     border: 1px solid #264181;
     box-shadow: 0px 0px 10px 0px rgba(38, 65, 129, 0.6);
+    z-index: 9;
   }
   &:hover {
     .rank__tip {

@@ -7,6 +7,7 @@ export default {
     return {
       showFilter: false,
       showSort: false,
+      isList: false,
     }
   },
   components: {
@@ -35,13 +36,16 @@ export default {
         }, 300)
       }
     },
+    switchType() {
+      this.isList = !this.isList
+    },
   },
 }
 </script>
 <template>
   <div class="gameList__wrapper">
     <div class="gameList__header">
-      <div class="gameList__right">
+      <div class="gameList__left">
         <v-btn
           class="gameList__button"
           :class="{ 'gameList__button--active': showFilter }"
@@ -55,6 +59,7 @@ export default {
           ><v-icon color="#fff">mdi-sort</v-icon>
         </v-btn>
       </div>
+      <v-btn @click="switchType" class="gameList__button">Тип</v-btn>
     </div>
     <transition name="slide">
       <GamesFilters v-if="showFilter" />
@@ -62,9 +67,9 @@ export default {
     <transition name="slide">
       <GameSort v-if="showSort" />
     </transition>
-    <ul class="gameList">
+    <ul class="gameList" :class="{ 'gameList--list': isList }">
       <li v-for="(game, index) in gameList" :key="index">
-        <GameCard :game="game" />
+        <GameCard :game="game" :is-list="isList" />
       </li>
     </ul>
   </div>
@@ -77,6 +82,10 @@ export default {
   grid-template-columns: repeat(auto-fit, 270px);
   grid-gap: 100px 36px;
   gap: 100px 36px;
+  &--list {
+    grid-template-columns: 1fr;
+    gap: 16px 0;
+  }
   li {
     list-style-type: none;
   }
@@ -85,17 +94,19 @@ export default {
   }
   &__header {
     display: flex;
+    justify-content: space-between;
     height: 64px;
     align-items: center;
     border-bottom: 1px solid #f1f4f9;
     margin-bottom: 24px;
   }
-  &__right {
+  &__left {
     display: flex;
     gap: 0 16px;
   }
   &__button {
     background-color: #264181 !important;
+    color: white;
     &--active {
       background-color: #ec1d2d !important;
     }
