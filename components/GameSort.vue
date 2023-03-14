@@ -1,13 +1,19 @@
 <template>
   <div class="sort">
-    <v-btn>Год</v-btn>
-    <v-btn>Редкость платины</v-btn>
-    <v-btn>Оценка Игры</v-btn>
-    <v-btn>Оценка Платины</v-btn>
+    <SortBtn title="Год" action="year" />
+    <SortBtn title="Редкость платины" action="rarity" />
+    <SortBtn title="Оценка Игры" action="game_rank" />
+    <SortBtn title="Оценка Платины" action="platinum_rank" />
+    <SortBtn title="Название игры" action="title" />
   </div>
 </template>
 <script>
-export default {}
+import SortBtn from '@/components/SortBtn'
+export default {
+  components: {
+    SortBtn,
+  },
+}
 </script>
 <style lang="scss" scoped>
 .sort {

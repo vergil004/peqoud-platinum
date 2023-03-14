@@ -6,7 +6,7 @@
     "platform": "PS3",
     "play_platform": "PS3",
     "year": "2023",
-    "rarity": "10.3",
+    "rarity": "1.7",
     "game_rank": "C",
     "platinum_rank": "A",
     "most_hard": "Mad Skillz",
@@ -19,7 +19,7 @@
 
   },
   {
-    "id": 1,
+    "id": 21,
     "title": "Ведьмак 3. Дикая Охота",
     "slug": "witcher_wild_hunt",
     "platform": "PS5",
@@ -38,7 +38,7 @@
     "description": "Игра выдержала проверку временем. Сюжет все также интересно проходить. Боевка устарела. Проходить на сложности 'На смерть!' было сложно только в самом начале. Единственный трофей, который вызвал какие-то трудности - отстрел в голову 50 человек из арабалета."
   },
   {
-    "id": 2,
+    "id": 20,
     "title": "Spyro 2: Ripto's Rage!",
     "slug": "spyro_2_riptos_rage",
     "platform": "PS4",
@@ -57,7 +57,7 @@
     "description": "В отличие от первой части игра стала более разнообразна и выдает несколько новых игровых механик.Ирга из класса - откинулся в кресле и играешь расслабленно. Крроме трофея 'Conservationist 2' сложных мест в игре нет. Да и он спокойно выбивается с помощью бесконечного огня."
   },
   {
-    "id": 3,
+    "id": 19,
     "title": "Call of Duty: Modern Warfare 2 Campaign Remastered",
     "slug": "call_of_duty_modern_warfare_2_campaign_remastered",
     "platform": "PS4",
@@ -76,7 +76,7 @@
     "description": "Еще одна игра выдержащая проверку временем. Спустя почти полтоара десятка лет в нее также интересно играть. В отличие от оригинала игра стала проще. Вырезали из игры операции. Но тир с полосой препядствий остался. Вот он и заставил попотеть."
   },
   {
-    "id": 4,
+    "id": 18,
     "title": "God of War: Ragnarok",
     "slug": "god_of_war_ragnarok",
     "platform": "PS5",
@@ -94,7 +94,7 @@
     "description": "Игра отличная, но я на ней как и на предыдущей заскучал. Все таки третья часть серии для меня является кульминацией. Сложности платина не вызвала. Особенно тот факт что не трофея на сложность."
   },
   {
-    "id": 5,
+    "id": 17,
     "title": "A Plague Tale: Requiem",
     "slug": "a_plague_tale_requiem",
     "platform": "PS5",
@@ -113,7 +113,7 @@
     "description": "Сиквел хорошей игры который не оправдал ожидания. Очень посредственный геймплей вместе с плохим сюжетом и плохо прописанными персонажами производят удручающее впечатление. Ну и сама платина душная"
   },
   {
-    "id": 6,
+    "id": 16,
     "title": "God of War: Ascension",
     "slug": "god_of_war_ascension",
     "platform": "PS3",
@@ -132,7 +132,7 @@
     "description": "Бодрое начало но скучное продолжение и финал. Было круто вернуться в родного Бога войны. Увы игра получилось скучной. Даже на сложном уровне интереса не вызвала.Платина простая."
   },
   {
-    "id": 7,
+    "id": 15,
     "title": "Spyro the Dragon",
     "slug": "spyro_the_dragon",
     "platform": "PS4",
@@ -151,7 +151,7 @@
     "description": "Забавная игра. Платформер на пару вечеров. В игре нет ничего сложного кроме уровня на деревьях. И тот проходится доволно быстро."
   },
   {
-    "id": 8,
+    "id": 14,
     "title": "The Last of Us Part I",
     "slug": "the_last_of_us_part_i",
     "platform": "PS5",
@@ -170,7 +170,7 @@
     "description": "Кроме графики в ремейке не изменено ничего. И это печально. Игра все также прекрасна. Но что точно плохо в ремейке так это набор трофеев. Из игры убрали не только онлайн но и трофеи за сложность. Ну такое... "
   },
   {
-    "id": 9,
+    "id": 13,
     "title": "A Plague Tale: Innocence",
     "slug": "a_plague_tale_innocence",
     "platform": "PS5",
@@ -189,7 +189,7 @@
     "description": "В век открытых миров и больших игр небольшая коридорная игра с простенькими механиками прям отдушина. Легкая недушная платина прилогается"
   },
    {
-    "id": 10,
+    "id": 12,
     "title": "Disaster Report 4 Plus: Summer Memories",
      "slug": "spyro_2_riptos_rage",
     "platform": "PS4",
@@ -219,7 +219,7 @@
     "image": "https://image.api.playstation.com/vulcan/img/rnd/202011/0612/RzFDt2BSPz8Kzz3YMgKKRNAP.png?w=440"
   },
   {
-    "id": 12,
+    "id": 10,
     "title": "Fallout 4",
     "slug": "spyro_2_riptos_rage",
     "platform": "PS4",
@@ -234,7 +234,7 @@
     "image": "https://www.gameshub.com/wp-content/uploads/sites/5/2022/10/fallout-4-game.jpeg"
   },
   {
-    "id": 13,
+    "id": 9,
     "title": "Jak II",
     "slug": "spyro_2_riptos_rage",
     "platform": "PS4",
@@ -249,7 +249,7 @@
     "image": "https://i.ytimg.com/vi/4wsy8yC0604/maxresdefault.jpg"
   },
   {
-    "id": 14,
+    "id": 8,
     "title": "Ice Age: Scrat’s Nutty Adventure",
     "slug": "spyro_2_riptos_rage",
     "platform": "PS4",
@@ -264,7 +264,7 @@
     "image": "https://store-images.s-microsoft.com/image/apps.42550.65745943890185038.f5bbddc0-76bb-4688-bc2f-242c08faf808.17b37dab-a6ec-4695-9d05-7daf394e9a4d?q=90&w=480&h=270"
   },
   {
-    "id": 15,
+    "id": 7,
     "title": "Ghost of Tsushima",
     "slug": "spyro_2_riptos_rage",
     "platform": "PS5",
@@ -279,7 +279,7 @@
     "image": "https://coop-land.ru/uploads/posts/2020-12/1607613536_1.jpg"
   },
   {
-    "id": 16,
+    "id": 6,
     "title": "Bioshock Remastered",
     "slug": "spyro_2_riptos_rage",
     "platform": "PS4",
@@ -294,7 +294,7 @@
     "image": "https://store-images.s-microsoft.com/image/apps.30409.67843716406394594.0a78af59-8cd1-4a9f-a1fe-8a05327d3e7f.17ef10cd-482f-4bbc-ae29-3f827ef750c4?q=90&w=480&h=270"
   },
   {
-    "id": 17,
+    "id": 5,
     "title": "Stray",
     "slug": "spyro_2_riptos_rage",
     "platform": "PS5",
@@ -309,7 +309,7 @@
     "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1332010/capsule_616x353.jpg?t=1670349423"
   },
   {
-    "id": 18,
+    "id": 4,
     "title": "Resident Evil 7: Biohazard",
     "slug": "spyro_2_riptos_rage",
     "platform": "PS5",
@@ -324,7 +324,7 @@
     "image": "https://cdn.vox-cdn.com/thumbor/3fjlIJEQrYDudYZyo0EIKe2-f3M=/0x0:2650x1080/1200x675/filters:focal(1113x328:1537x752)/cdn.vox-cdn.com/uploads/chorus_image/image/69240645/RE7_dinner_keyart.0.0.1485129641.0.jpg"
   },
   {
-    "id": 19,
+    "id": 3,
     "title": "Resident Evil 2",
     "slug": "spyro_2_riptos_rage",
     "platform": "PS5",
@@ -339,7 +339,7 @@
     "image": "https://assets1.ignimgs.com/2019/01/22/residentevil2-blogroll-1548123721286_160w.jpg?width=1280"
   },
   {
-    "id": 20,
+    "id": 2,
     "title": "MediEvil",
     "slug": "spyro_2_riptos_rage",
     "platform": "PS4",
@@ -354,7 +354,7 @@
     "image": "https://i.ytimg.com/vi/19Dj520a3Og/maxresdefault.jpg"
   },
   {
-    "id": 21,
+    "id": 1,
     "title": "Resident Evil 3 Remake",
     "slug": "spyro_2_riptos_rage",
     "platform": "PS5",

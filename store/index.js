@@ -1,4 +1,5 @@
 import dataApi from './mockApi.json'
+import { sortItem } from '@/helpers'
 
 export const state = () => ({
   list: [],
@@ -15,6 +16,7 @@ export const mutations = {
   SET_DATA: (state, list) => Object.assign(state, list),
   SET_FILTER: (state, list) => Object.assign(state, list),
   SET_CURRENT_GAME: (state, list) => Object.assign(state, list),
+  SET_SORT_GAME: (state, list) => Object.assign(state, list),
 }
 
 export const actions = {
@@ -23,6 +25,19 @@ export const actions = {
   },
   setCurrentGAme({ commit }, slug) {
     commit('SET_CURRENT_GAME', { ...state, currentGame: slug })
+  },
+  setSortGame({ commit, state }, payload) {
+    let sortedGames = []
+    console.log(payload.reverse)
+    sortedGames = state.isFiltered
+      ? sortItem([...state.filterList], payload.type, payload.reverse)
+      : sortItem([...state.list], payload.type, payload.reverse)
+
+    commit('SET_SORT_GAME', {
+      ...state,
+      filterList: sortedGames,
+      isFiltered: true,
+    })
   },
   filterData({ commit, rootGetters, state }, payload) {
     let filtered = rootGetters.getAllList

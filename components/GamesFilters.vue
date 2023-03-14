@@ -43,9 +43,10 @@ export default {
     <div class="filter__item">
       <v-switch v-model="isHard" color="#ec1d2d" label="Есть сложный трофей" />
       <v-text-field
-        v-model="rarityFrom"
+        v-model.number="rarityFrom"
         value="rarity"
         label="редкость платины от"
+        type="Number"
       />
       <v-text-field
         v-model="rarityTo"
@@ -55,9 +56,10 @@ export default {
     </div>
     <div class="filter__item">
       <v-switch
-        v-model="showPlatinumRank"
+        v-model.number="showPlatinumRank"
         label="Фильтр рейтинга платин"
         color="#264181"
+        type="Number"
       />
       <v-switch
         v-model="showGameRank"
