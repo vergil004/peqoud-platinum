@@ -40,6 +40,7 @@ export const actions = {
     })
   },
   filterData({ commit, rootGetters, state }, payload) {
+    console.log(payload)
     let filtered = rootGetters.getAllList
     if (payload.isHard) {
       filtered = filtered.filter((item) => item.is_hard)
@@ -68,6 +69,11 @@ export const actions = {
     if (payload.gamePlatform.length !== 0) {
       filtered = filtered.filter((item) =>
         payload.gamePlatform.includes(item.platform)
+      )
+    }
+    if (payload.gameYears.length !== 0) {
+      filtered = filtered.filter((item) =>
+        payload.gameYears.includes(item.year)
       )
     }
     commit('SET_FILTER', {

@@ -1,6 +1,6 @@
 [
   {
-    "id": 22,
+    "id": 28,
     "title": "Resident Evil 6",
     "slug": "resident_evil_6",
     "platform": "PS3",
@@ -19,7 +19,7 @@
 
   },
   {
-    "id": 21,
+    "id": 27,
     "title": "Ведьмак 3. Дикая Охота",
     "slug": "witcher_wild_hunt",
     "platform": "PS5",
@@ -38,7 +38,7 @@
     "description": "Игра выдержала проверку временем. Сюжет все также интересно проходить. Боевка устарела. Проходить на сложности 'На смерть!' было сложно только в самом начале. Единственный трофей, который вызвал какие-то трудности - отстрел в голову 50 человек из арабалета."
   },
   {
-    "id": 20,
+    "id": 26,
     "title": "Spyro 2: Ripto's Rage!",
     "slug": "spyro_2_riptos_rage",
     "platform": "PS4",
@@ -57,7 +57,7 @@
     "description": "В отличие от первой части игра стала более разнообразна и выдает несколько новых игровых механик.Ирга из класса - откинулся в кресле и играешь расслабленно. Крроме трофея 'Conservationist 2' сложных мест в игре нет. Да и он спокойно выбивается с помощью бесконечного огня."
   },
   {
-    "id": 19,
+    "id": 25,
     "title": "Call of Duty: Modern Warfare 2 Campaign Remastered",
     "slug": "call_of_duty_modern_warfare_2_campaign_remastered",
     "platform": "PS4",
@@ -76,7 +76,7 @@
     "description": "Еще одна игра выдержащая проверку временем. Спустя почти полтоара десятка лет в нее также интересно играть. В отличие от оригинала игра стала проще. Вырезали из игры операции. Но тир с полосой препядствий остался. Вот он и заставил попотеть."
   },
   {
-    "id": 18,
+    "id": 24,
     "title": "God of War: Ragnarok",
     "slug": "god_of_war_ragnarok",
     "platform": "PS5",
@@ -94,7 +94,7 @@
     "description": "Игра отличная, но я на ней как и на предыдущей заскучал. Все таки третья часть серии для меня является кульминацией. Сложности платина не вызвала. Особенно тот факт что не трофея на сложность."
   },
   {
-    "id": 17,
+    "id": 23,
     "title": "A Plague Tale: Requiem",
     "slug": "a_plague_tale_requiem",
     "platform": "PS5",
@@ -113,7 +113,7 @@
     "description": "Сиквел хорошей игры который не оправдал ожидания. Очень посредственный геймплей вместе с плохим сюжетом и плохо прописанными персонажами производят удручающее впечатление. Ну и сама платина душная"
   },
   {
-    "id": 16,
+    "id": 22,
     "title": "God of War: Ascension",
     "slug": "god_of_war_ascension",
     "platform": "PS3",
@@ -132,7 +132,7 @@
     "description": "Бодрое начало но скучное продолжение и финал. Было круто вернуться в родного Бога войны. Увы игра получилось скучной. Даже на сложном уровне интереса не вызвала.Платина простая."
   },
   {
-    "id": 15,
+    "id": 21,
     "title": "Spyro the Dragon",
     "slug": "spyro_the_dragon",
     "platform": "PS4",
@@ -151,7 +151,7 @@
     "description": "Забавная игра. Платформер на пару вечеров. В игре нет ничего сложного кроме уровня на деревьях. И тот проходится доволно быстро."
   },
   {
-    "id": 14,
+    "id": 20,
     "title": "The Last of Us Part I",
     "slug": "the_last_of_us_part_i",
     "platform": "PS5",
@@ -170,7 +170,7 @@
     "description": "Кроме графики в ремейке не изменено ничего. И это печально. Игра все также прекрасна. Но что точно плохо в ремейке так это набор трофеев. Из игры убрали не только онлайн но и трофеи за сложность. Ну такое... "
   },
   {
-    "id": 13,
+    "id": 19,
     "title": "A Plague Tale: Innocence",
     "slug": "a_plague_tale_innocence",
     "platform": "PS5",
@@ -189,9 +189,9 @@
     "description": "В век открытых миров и больших игр небольшая коридорная игра с простенькими механиками прям отдушина. Легкая недушная платина прилогается"
   },
    {
-    "id": 12,
+    "id": 18,
     "title": "Disaster Report 4 Plus: Summer Memories",
-     "slug": "spyro_2_riptos_rage",
+     "slug": "disaster_report_4_plus_summer_memories",
     "platform": "PS4",
      "play_platform": "PS5",
     "year": "2022",
@@ -201,12 +201,15 @@
     "most_hard": "Romance? Or Friendship?",
     "serial": "Disaster Report",
      "is_hard": false,
-    "image": "https://cdn1.epicgames.com/cb6352a885e2466d900f4f1b737c295a/offer/EGS_DisasterReport4SummerMemories_GranzellaInc_S1-2560x1440-133dd547544d55c98e316649d99346d7.jpg"
+    "image": "https://cdn1.epicgames.com/cb6352a885e2466d900f4f1b737c295a/offer/EGS_DisasterReport4SummerMemories_GranzellaInc_S1-2560x1440-133dd547544d55c98e316649d99346d7.jpg",
+     "gallery": ["https://cdn.cloudflare.steamstatic.com/steam/apps/1060210/ss_e3e273af74ca3bd626bfa247bb463680a6d87807.1920x1080.jpg?t=1668469405",
+     "https://i.ytimg.com/vi/2Eb4gRL80_M/maxresdefault.jpg", "https://i.ytimg.com/vi/KrlUCaQYvCg/maxresdefault.jpg"],
+     "description": "Смещная игра из-за сочитания нелепости и серьезности происходящего. Плюсом стало то, что интереснее отыгрывать дегенерата. Платина простая."
   },
   {
-    "id": 11,
+    "id": 17,
     "title": "Jak III",
-    "slug": "spyro_2_riptos_rage",
+    "slug": "jak_3",
     "platform": "PS4",
     "play_platform": "PS5",
     "year": "2022",
@@ -216,12 +219,15 @@
     "most_hard": "The Orbiter of Record",
     "serial": "Jak & Daxter",
     "is_hard": false,
-    "image": "https://image.api.playstation.com/vulcan/img/rnd/202011/0612/RzFDt2BSPz8Kzz3YMgKKRNAP.png?w=440"
+    "image": "https://image.api.playstation.com/vulcan/img/rnd/202011/0612/RzFDt2BSPz8Kzz3YMgKKRNAP.png?w=440",
+    "gallery": ["https://gamemag.ru/images/uploads/993/8cf4678344a1d7bd0243eae58e1df2ca.jpg", "https://games.mail.ru/hotbox/content_files/gallery/8d/8f/ee560357.jpeg",
+    "https://images.squarespace-cdn.com/content/v1/55ef0e29e4b099e22cdc9eea/1491312672552-0OIU18E80XXGU9W5N8R4/image-asset.jpeg?format=1500w"],
+    "description": "Одна из лучших игр времен PS2. Ремастер для PS4 игрался все также бодро. Персонажи такие же обоятельные как тогда а сама платина простая и ненапряжная(использовал глич для сбора колекционных предметов)."
   },
   {
-    "id": 10,
+    "id": 16,
     "title": "Fallout 4",
-    "slug": "spyro_2_riptos_rage",
+    "slug": "fallout_4",
     "platform": "PS4",
     "play_platform": "PS4",
     "year": "2022",
@@ -231,12 +237,16 @@
     "most_hard": "…They're Action Figures",
     "serial": "Fallout",
     "is_hard": false,
-    "image": "https://www.gameshub.com/wp-content/uploads/sites/5/2022/10/fallout-4-game.jpeg"
+    "image": "https://www.gameshub.com/wp-content/uploads/sites/5/2022/10/fallout-4-game.jpeg",
+    "gallery": ["https://games.mail.ru/hotbox/content_files/game/2021/02/12/419b786fdaa340a8ae9669efe6460253.jpg",
+    "https://cdn.igromania.ru/mnt/game_screenshots_gallery/a/3/a/b/0/69729/8c8f1205a7ae5291_1200xH.jpg",
+    "https://3dnews.ru/assets/external/illustrations/2015/11/05/923066/fallout%204%200001.jpg"],
+    "description": "В начале игра прям не зашла. Позже дал игре второй шанс и игра расскрылась. Гораздо больше времени тратил на развитие поселений вместо прохождения сюжета. В итоге игра надоела. Прошел спустя годы. Платина не сложная."
   },
   {
-    "id": 9,
+    "id": 15,
     "title": "Jak II",
-    "slug": "spyro_2_riptos_rage",
+    "slug": "jak_2",
     "platform": "PS4",
     "play_platform": "PS5",
     "year": "2022",
@@ -246,12 +256,16 @@
     "most_hard": "The Collectationator!",
     "serial": "Jak & Daxter",
     "is_hard": false,
-    "image": "https://i.ytimg.com/vi/4wsy8yC0604/maxresdefault.jpg"
+    "image": "https://i.ytimg.com/vi/4wsy8yC0604/maxresdefault.jpg",
+    "gallery": ["https://i.ytimg.com/vi/FtAHIOpHVOY/maxresdefault.jpg",
+    "https://m.media-amazon.com/images/M/MV5BYWQ1NDIwODAtNDA0Yy00ZGRiLTg2NDEtZmMwYjI5ZWFiODFlXkEyXkFqcGdeQXVyNjM2NTM3ODA@._V1_.jpg",
+    "https://image.api.playstation.com/cdn/UP9000/CUSA07840_00/FREE_CONTENTTKHCzOrv9qHiDJ3D7eU2/PREVIEW_SCREENSHOT5_159533.jpg"],
+    "description": "Так и не прошел эту игру ни на PS2 ни на PS3 ни на PS4. Вроде и игра интересная. Просто воспользовался глитчами для платины. Вот так нечестно. Получается легкая платина."
   },
   {
-    "id": 8,
+    "id": 14,
     "title": "Ice Age: Scrat’s Nutty Adventure",
-    "slug": "spyro_2_riptos_rage",
+    "slug": "ice_age_scrats_nutty_adventure",
     "platform": "PS4",
     "play_platform": "PS5",
     "year": "2022",
@@ -261,12 +275,16 @@
     "most_hard": "No Stone Unturned",
     "serial": "Ice Age",
     "is_hard": false,
-    "image": "https://store-images.s-microsoft.com/image/apps.42550.65745943890185038.f5bbddc0-76bb-4688-bc2f-242c08faf808.17b37dab-a6ec-4695-9d05-7daf394e9a4d?q=90&w=480&h=270"
+    "image": "https://store-images.s-microsoft.com/image/apps.42550.65745943890185038.f5bbddc0-76bb-4688-bc2f-242c08faf808.17b37dab-a6ec-4695-9d05-7daf394e9a4d?q=90&w=480&h=270",
+    "gallery": ["https://static-ca.gamestop.ca/images/products/747834/14scrmax6.jpg",
+    "https://images.g2a.com/1024x768/1x1x0/ice-age-scrats-nutty-adventure-steam-key-global-i10000190590003/5d81df6646177c12d743fd32",
+    "https://nintendoswitch.pl/wp-content/uploads/2019/08/ice-age.original.jpg"],
+    "description": "До чего же примитивный платформер. Пара интересных моментов и все. Все остальное до ужаса тривиально.Платина была простой но не без тупого момента. Одна колекционная вещица лежала так криво что прям пришлось попотеть."
   },
   {
-    "id": 7,
+    "id": 13,
     "title": "Ghost of Tsushima",
-    "slug": "spyro_2_riptos_rage",
+    "slug": "ghost_of_tsushima",
     "platform": "PS5",
     "play_platform": "PS5",
     "year": "2022",
@@ -276,12 +294,16 @@
     "most_hard": "All in the Wrist",
     "serial": "Ghost of Tsushima",
     "is_hard": false,
-    "image": "https://coop-land.ru/uploads/posts/2020-12/1607613536_1.jpg"
+    "image": "https://coop-land.ru/uploads/posts/2020-12/1607613536_1.jpg",
+    "gallery": ["https://3dnews.ru/assets/external/illustrations/2020/07/13/1015541/Ghost_of_Tsushima_review_2.jpg",
+    "https://cdn.regnum.ru/uploads/pictures/news/2021/08/20/regnum_picture_1629447196328754_normal.jpg",
+    "https://games.mail.ru/pre_0x736_resize/hotbox/content_files/game/2020/06/16/28f7f0e1b71245529a93754fa1d7846d.jpg?quality=85"],
+    "description": "Не понимаю всеобщих восторогов по поводу этой игры. Очень скучный ассасин в японии.Да красивые виды, но это все. Сюжет банален и главный конфликт высосан из пальца. Платина прям душная. Ну а это версия для PS5. Поэтому я ее даже не проходил - просто подождал когда выпадут трофеи за прохождении на PS4."
   },
   {
-    "id": 6,
+    "id": 12,
     "title": "Bioshock Remastered",
-    "slug": "spyro_2_riptos_rage",
+    "slug": "bioshock_remastered",
     "platform": "PS4",
     "play_platform": "PS4",
     "year": "2022",
@@ -291,12 +313,16 @@
     "most_hard": "Research PhD",
     "serial": "Bioshock",
     "is_hard": false,
-    "image": "https://store-images.s-microsoft.com/image/apps.30409.67843716406394594.0a78af59-8cd1-4a9f-a1fe-8a05327d3e7f.17ef10cd-482f-4bbc-ae29-3f827ef750c4?q=90&w=480&h=270"
+    "image": "https://store-images.s-microsoft.com/image/apps.30409.67843716406394594.0a78af59-8cd1-4a9f-a1fe-8a05327d3e7f.17ef10cd-482f-4bbc-ae29-3f827ef750c4?q=90&w=480&h=270",
+    "gallery": ["https://cdn.vox-cdn.com/thumbor/ZOrum8CxX9AQfcV7_2pILn4vRbM=/0x0:1920x1080/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/50880149/bioshock-the-collection_bio1_bd-fight_1920.0.0.jpg",
+    "https://fs-prod-cdn.nintendo-europe.com/media/images/06_screenshots/games_5/nintendo_switch_6/nswitch_bioshockremaster/NSwitch_BioshockRemaster_03.jpg",
+    "https://fs-prod-cdn.nintendo-europe.com/media/images/06_screenshots/games_5/nintendo_switch_6/nswitch_bioshockremaster/NSwitch_BioshockRemaster_04.jpg"],
+    "description": "Отличная игра. Прошел ее впервые именно на PS4. Игра бодро игралась даже в 2022 году. Платина простая. Благо есть глич для харда."
   },
   {
-    "id": 5,
+    "id": 11,
     "title": "Stray",
-    "slug": "spyro_2_riptos_rage",
+    "slug": "stray",
     "platform": "PS5",
     "play_platform": "PS5",
     "year": "2022",
@@ -305,13 +331,17 @@
     "platinum_rank": "C",
     "most_hard": "Can't Cat-ch Me",
     "serial": "Stray",
-    "is_hard": false,
-    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1332010/capsule_616x353.jpg?t=1670349423"
+    "is_hard": true,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1332010/capsule_616x353.jpg?t=1670349423",
+    "gallery": ["https://i.playground.ru/p/KjOav3T8jb1eRw7KWPh0hA.jpeg",
+    "https://img.championat.com/c/1350x759/news/big/q/l/murchaschij-kotik-v-mire-buduschego-novyj-gejmplej-igry-dlya-koshatnikov-stray_16547710651037410490.jpg",
+    "https://games.mail.ru/hotbox/content_files/article/2022/07/19/cdf372c3c51f454996127e059020b59f.jpg"],
+    "description": "Одна из самых переоцененных игр что я видел. Сделай разработчики вместо кота другого персонажа и волна положительных рецензий сошла бы на нет. Играть скучно - даже прыжки все залочены. В плане трофеев сложность вызвал только один трофей с пробежкой без урона. Насать в тапки нельзя!"
   },
   {
-    "id": 4,
+    "id": 10,
     "title": "Resident Evil 7: Biohazard",
-    "slug": "spyro_2_riptos_rage",
+    "slug": "resident_evil_7_biohazard",
     "platform": "PS5",
     "play_platform": "PS5",
     "year": "2022",
@@ -321,12 +351,16 @@
     "most_hard": "Resource Manager",
     "serial": "Resident Evil",
     "is_hard": false,
-    "image": "https://cdn.vox-cdn.com/thumbor/3fjlIJEQrYDudYZyo0EIKe2-f3M=/0x0:2650x1080/1200x675/filters:focal(1113x328:1537x752)/cdn.vox-cdn.com/uploads/chorus_image/image/69240645/RE7_dinner_keyart.0.0.1485129641.0.jpg"
+    "image": "https://cdn.vox-cdn.com/thumbor/3fjlIJEQrYDudYZyo0EIKe2-f3M=/0x0:2650x1080/1200x675/filters:focal(1113x328:1537x752)/cdn.vox-cdn.com/uploads/chorus_image/image/69240645/RE7_dinner_keyart.0.0.1485129641.0.jpg",
+    "gallery": ["https://rushbe.ru/_next/image?url=https%3A%2F%2Frushbe.ru%2Fmedia%2FBkoKGJuKaxEDbKBeCUYzHbpg_1656508848187.jpeg&w=3840&q=75",
+    "https://assets2.rockpapershotgun.com/rev4.jpg/BROK/thumbnail/1600x900/quality/100/rev4.jpg",
+    "https://rampaga.ru/_sf/76/88031242.jpg"],
+    "description": "Хорошая игра. Но то что этот резидент от первого лица смазывает впечатление. Да и сам сеттинг американской глубинки мне не очень. Смазало впечатление и кривой перенос трофеев с PS4.Пришлось повторно выбивать трофеии и не самые простые."
   },
   {
-    "id": 3,
+    "id": 9,
     "title": "Resident Evil 2",
-    "slug": "spyro_2_riptos_rage",
+    "slug": "resident_evil_2",
     "platform": "PS5",
     "play_platform": "PS5",
     "year": "2022",
@@ -336,12 +370,16 @@
     "most_hard": "Grim Reaper",
     "serial": "Resident Evil",
     "is_hard": false,
-    "image": "https://assets1.ignimgs.com/2019/01/22/residentevil2-blogroll-1548123721286_160w.jpg?width=1280"
+    "image": "https://assets1.ignimgs.com/2019/01/22/residentevil2-blogroll-1548123721286_160w.jpg?width=1280",
+    "gallery": ["https://cdn.kanobu.ru/screenshots/21/5e52cc13-411c-4ddd-9dc5-f543138782c7.jpg",
+    "https://storgames.net/upload/iblock/2f6/8713d6f6f83bda9a2a051ff50f8a618f.jpg",
+    "https://i.playground.ru/p/SX_Vdx9t5mur5JtI6MhMKA.jpeg"],
+    "description": "Отличная игра. С огромным удовольствием прошел еще раз. Трофеи не нужно было выбивать. Перенос трофеев помог. Если бы нет то выбил точно."
   },
   {
-    "id": 2,
+    "id": 8,
     "title": "MediEvil",
-    "slug": "spyro_2_riptos_rage",
+    "slug": "mediEvil",
     "platform": "PS4",
     "play_platform": "PS5",
     "year": "2022",
@@ -351,12 +389,16 @@
     "most_hard": "Soul Savior",
     "serial": "MediEvil",
     "is_hard": false,
-    "image": "https://i.ytimg.com/vi/19Dj520a3Og/maxresdefault.jpg"
+    "image": "https://i.ytimg.com/vi/19Dj520a3Og/maxresdefault.jpg",
+    "gallery": ["https://static1.thegamerimages.com/wordpress/wp-content/uploads/2019/10/MediEvil-Remake-New-Content-3.jpg",
+    "https://assets.reedpopcdn.com/medievil-review-polished-remake-fails-to-de-clunk-the-ps1-original-1571909201090.jpg/BROK/thumbnail/1600x900/quality/100/medievil-review-polished-remake-fails-to-de-clunk-the-ps1-original-1571909201090.jpg",
+    "https://images.squarespace-cdn.com/content/v1/58b3cae5d1758e0132a008c6/1571812015454-XFFQ9TZP6IZRECUJF224/MediEvil+is+out+today.jpg?format=1500w"],
+    "description": "Одно из главных разочарований. Очень давно хотел пройти игру. Но только в плюсе. Хорошо что не потратил деньги на это. Скучный платформер с нуливым импактом по врагам. Сложных трофеев тоже нет."
   },
   {
-    "id": 1,
+    "id": 7,
     "title": "Resident Evil 3 Remake",
-    "slug": "spyro_2_riptos_rage",
+    "slug": "resident_evil_3_remake",
     "platform": "PS5",
     "play_platform": "PS5",
     "year": "2022",
@@ -366,6 +408,121 @@
     "most_hard": "Jill Valentine",
     "serial": "Resident Evil",
     "is_hard": false,
-    "image": "https://vsrap.ru/wp-content/uploads/2020/01/residentevil3remake.jpg"
+    "image": "https://vsrap.ru/wp-content/uploads/2020/01/residentevil3remake.jpg",
+    "gallery": ["https://3dnews.ru/assets/external/illustrations/2020/10/01/1021936/02.jpg",
+    "https://i.rutab.net/upload/2020/03/resident-evil-3-remake-image-1.jpg",
+    "https://gamearenda.ru/uploads/posts/2020-11/1605694829_4.jpg"],
+    "description": "Хорошая игра. Короткая, но интересная. Трансфер трофеев с PS4 помог избежать проблем с 'Куринной лапкой'"
+  },
+  {
+    "id": 6,
+    "title": "SIFU",
+    "slug": "sifu",
+    "platform": "PS5",
+    "play_platform": "PS5",
+    "year": "2022",
+    "rarity": "4.7",
+    "game_rank": "C",
+    "platinum_rank": "B",
+    "most_hard": "Master of the Phoenix Eye Fist",
+    "serial": "SIFU",
+    "is_hard": false,
+    "image": "https://i.ytimg.com/vi/1FQ1YO3Ks2U/maxresdefault.jpg",
+    "gallery": ["https://i.playground.ru//i/screenshot/127158/sifu.jpg",
+    "https://i.playground.ru//i/screenshot/127154/sifu.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2138710/ss_fcbdfe30cb361fdc6971878306a5179d175240c9.1920x1080.jpg?t=1678446408"],
+    "description": "Хорошая концепция. Но какая плохая реализация. Если играть на нормальном уровне сложности игра наказывает слишком жестоко. Пару смертей и ты старик. Но довольно быстро появился 'нормальный' уровнь сложности и платина стала легкой."
+  },
+  {
+    "id": 5,
+    "title": "Pinball - Breakthrough Gaming Arcade",
+    "slug": "pinball_breakthrough_gaming_arcade",
+    "platform": "PS4",
+    "play_platform": "PS5",
+    "year": "2022",
+    "rarity": "97.7",
+    "game_rank": "D",
+    "platinum_rank": "D",
+    "most_hard": "Get at least 100 points during a game of pinball",
+    "serial": "Breakthrough Gaming Arcade",
+    "is_hard": false,
+    "image": "https://image.api.playstation.com/vulcan/ap/rnd/202205/2508/8EaXBC3avJukxOm8eQnIuhNU.jpg",
+    "description": "Игра за 40 рублей купленная исключительно ради платины. Дольше искал что отвечает за левый рычажок."
+  },
+  {
+    "id": 4,
+    "title": "Horizon: Forbidden West",
+    "slug": "horizon_forbidden_west",
+    "platform": "PS5",
+    "play_platform": "PS5",
+    "year": "2022",
+    "rarity": "6.7",
+    "game_rank": "A",
+    "platinum_rank": "B",
+    "most_hard": "Obtained 3 Stripes at All Hunting Grounds",
+    "serial": "Horizon",
+    "is_hard": false,
+    "image": "https://blog.playstation.com/tachyon/2021/11/0c19baf8ccbfa7293a9da230f44aab752ecfd444.png?resize=1088%2C612&crop_strategy=smart",
+    "gallery": ["https://i.guim.co.uk/img/media/9e34b2944bd386961aa2550c6d086668668e7d97/34_0_3600_2160/master/3600.jpg?width=1200&quality=85&auto=format&fit=max&s=1ddca1fc453837967738eeb74726f9cc",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTazfuLtoKiEXiLU7mHhFOAZjfqMIQO2lkJMA&usqp=CAU",
+    "https://cdn.vox-cdn.com/thumbor/ZxkkfybhGal8kTMQnL8eQGn8IIM=/0x0:3840x2160/1200x675/filters:focal(1365x881:1979x1495)/cdn.vox-cdn.com/uploads/chorus_image/image/70508318/horizon_forbidden_west_aloy_charger_3840.0.jpg"],
+    "description": "Вторая часть вроде и лучше и больше чем первая часть но не цепляет. Как и почти все игры в открытом мире под конец утомляет. Как и в первой части самое сложно испытания в охотничьих угодьях."
+  },
+  {
+    "id": 3,
+    "title": "Devil May Cry 3 HD",
+    "slug": "devil_may_cry_3_hd",
+    "platform": "PS4",
+    "play_platform": "PS5",
+    "year": "2022",
+    "rarity": "2.2",
+    "game_rank": "S",
+    "platinum_rank": "S",
+    "most_hard": "To Hell And Back",
+    "serial": "Devil May Cry",
+    "is_hard": true,
+    "image": "https://cdn.igromania.ru/mnt/articles/e/b/8/9/5/7/30039/preview/b2a997102bc639cb_848x477.jpg",
+    "gallery": ["https://i.ytimg.com/vi/AddD0wbXtYU/maxresdefault.jpg",
+    "https://images.gamersyde.com/image_stream-37837-2393_0002.jpg",
+    "https://i.ytimg.com/vi/qgo_Bc0RuMg/maxresdefault.jpg"],
+    "description": "Одна из самых любимых игр. Персонажи, сюжет и особенно геймплей,неустаревший за 17 лет. Ну и платина застявила попотеть. Минус геймпад но оно того стоило. Пройти игру на very hard намного сложнее нежели чем на DMD."
+  },
+  {
+    "id": 2,
+    "title": "UNCHARTED: Наследие воров. Коллекция",
+    "slug": "uncharted_legacy_of_thieves_collection",
+    "platform": "PS5",
+    "play_platform": "PS5",
+    "year": "2022",
+    "rarity": "1.6",
+    "game_rank": "S",
+    "platinum_rank": "A",
+    "most_hard": "Best Score!",
+    "serial": "Uncharted",
+    "is_hard": false,
+    "image": "https://ixbt.online/gametech/covers/2021/11/10/icT26lFUgR3JvBSbw5OGozfAIeH2iCGYmvJ99jX2.jpg",
+    "gallery": ["https://i.ytimg.com/vi/xeMA3O9pfiY/maxresdefault.jpg",
+    "https://igrostation.ru/upload/iblock/990/4xlr0gpbtke21ara0td1susoglu6b6sc.jpg",
+    "https://www.igromagaz.ru/upload/iblock/f0b/ss_b74c7d3f2ee40dd8ecf43308fad5a74a40879167.1920x1080.jpg"],
+    "description": "Было круто вернутся в анчартед на новом поколении. Но кроме 60 фпс никаких улучшений не заметил. А так четвертая часть все также лучшая приключенческая игра. Утраченное наследие все также скучное дополнение. Многие трофеи не перенеслись из версии PS4 и их пришлось выбивать заново."
+  },
+  {
+    "id": 1,
+    "title": "Resident Evil 7: Biohazard",
+    "slug": "resident_Evil_7_biohazard_ps4",
+    "platform": "PS4",
+    "play_platform": "PS5",
+    "year": "2022",
+    "rarity": "1.5",
+    "game_rank": "A",
+    "platinum_rank": "S",
+    "most_hard": "Who's Your Daddy Now?",
+    "serial": "Uncharted",
+    "is_hard": true,
+    "image": "https://cdn.vox-cdn.com/thumbor/3fjlIJEQrYDudYZyo0EIKe2-f3M=/0x0:2650x1080/1200x675/filters:focal(1113x328:1537x752)/cdn.vox-cdn.com/uploads/chorus_image/image/69240645/RE7_dinner_keyart.0.0.1485129641.0.jpg",
+    "gallery": ["https://rushbe.ru/_next/image?url=https%3A%2F%2Frushbe.ru%2Fmedia%2FBkoKGJuKaxEDbKBeCUYzHbpg_1656508848187.jpeg&w=3840&q=75",
+    "https://assets2.rockpapershotgun.com/rev4.jpg/BROK/thumbnail/1600x900/quality/100/rev4.jpg",
+    "https://rampaga.ru/_sf/76/88031242.jpg"],
+    "description": "В какой-то момент захотелось нормально пройти седьмой резидент. Взял и прошел на безумии.А там и остальные трофеии подтянул. Сама игра все также и нравится и не очень."
   }
 ]

@@ -5,14 +5,29 @@ export default {
       showGameRank: false,
       showPlatinumRank: false,
       showPlatform: false,
+      showYear: false,
       rarityFrom: 0,
       rarityTo: 100,
       isHard: false,
       gameRanks: [],
       platinumRanks: [],
       gamePlatform: [],
+      gameYears: [],
       ranks: ['S', 'A', 'B', 'C', 'D'],
       platforms: ['PS3', 'PS4', 'PS5', 'PSVITA'],
+      years: [
+        '2023',
+        '2022',
+        '2021',
+        '2020',
+        '2019',
+        '2018',
+        '2017',
+        '2016',
+        '2015',
+        '2014',
+        '2013',
+      ],
     }
   },
   methods: {
@@ -24,6 +39,7 @@ export default {
         gameRanks: this.gameRanks,
         platinumRanks: this.platinumRanks,
         gamePlatform: this.gamePlatform,
+        gameYears: this.gameYears,
       })
     },
     cancel() {
@@ -33,6 +49,7 @@ export default {
       this.gameRanks = []
       this.platinumRanks = []
       this.gamePlatform = []
+      this.gameYears = []
       this.submit()
     },
   },
@@ -49,12 +66,13 @@ export default {
         type="Number"
       />
       <v-text-field
-        v-model="rarityTo"
+        v-model.number="rarityTo"
         value="rarity"
         label="редкость платины до"
       />
     </div>
-    <div class="filter__item">
+    <div class="filter__item filter__item--switch">
+      <v-switch v-model="showYear" label="Фильтр лет" color="#264181" />
       <v-switch
         v-model.number="showPlatinumRank"
         label="Фильтр рейтинга платин"
@@ -71,6 +89,29 @@ export default {
         label="Фильтр платформ"
         color="#264181"
       />
+    </div>
+    <div
+      v-if="showYear"
+      class="filter__check--year filter__check filter__check--platinum"
+    >
+      <div class="filter__check-left">
+        <v-checkbox
+          v-for="(year, index) in years"
+          :value="year"
+          :label="year"
+          :key="index"
+          hide-details
+          v-model="gameYears"
+          color="#264181"
+        />
+      </div>
+      <v-btn
+        :disabled="!gamePlatform.length"
+        @click="gamePlatform = []"
+        color="#264181"
+        class="btn"
+        ><v-icon color="#fff">mdi-filter-off</v-icon></v-btn
+      >
     </div>
     <div class="filter__item">
       <div
@@ -154,6 +195,12 @@ export default {
     border-radius: 16px;
     border: 1px solid #ec1d2d;
     padding: 16px;
+    &--year {
+      margin-bottom: 16px;
+      .filter__check-left {
+        display: flex;
+      }
+    }
     &-left {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
@@ -176,6 +223,9 @@ export default {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 24px 36px;
     gap: 24px 36px;
+    &--switch {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
   }
   &__bottom {
     display: flex;

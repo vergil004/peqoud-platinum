@@ -44,29 +44,44 @@ export default {
 </script>
 <template>
   <div class="gameList__wrapper">
-    <div class="gameList__header">
-      <div class="gameList__left">
-        <v-btn
-          class="gameList__button"
-          :class="{ 'gameList__button--active': showFilter }"
-          @click="switchActive('filter')"
-          ><v-icon color="#fff">mdi-tune</v-icon>
-        </v-btn>
-        <v-btn
-          class="gameList__button"
-          :class="{ 'gameList__button--active': showSort }"
-          @click="switchActive('sort')"
-          ><v-icon color="#fff">mdi-sort</v-icon>
-        </v-btn>
+    <div class="gameList__fixed">
+      <div class="gameList__header">
+        <div class="gameList__left">
+          <v-btn
+            class="gameList__button"
+            :class="{ 'gameList__button--active': showFilter }"
+            @click="switchActive('filter')"
+            ><v-icon color="#fff">mdi-tune</v-icon>
+          </v-btn>
+          <v-btn
+            class="gameList__button"
+            :class="{ 'gameList__button--active': showSort }"
+            @click="switchActive('sort')"
+            ><v-icon color="#fff">mdi-sort</v-icon>
+          </v-btn>
+        </div>
+        <div class="gameList__right">
+          <v-btn
+            @click="switchType"
+            class="gameList__button"
+            :class="{ 'gameList__button--active': !isList }"
+            ><v-icon>mdi-view-comfy</v-icon></v-btn
+          >
+          <v-btn
+            @click="switchType"
+            class="gameList__button"
+            :class="{ 'gameList__button--active': isList }"
+            ><v-icon>mdi-view-list</v-icon></v-btn
+          >
+        </div>
       </div>
-      <v-btn @click="switchType" class="gameList__button">Тип</v-btn>
+      <transition name="slide">
+        <GamesFilters v-if="showFilter" />
+      </transition>
+      <transition name="slide">
+        <GameSort v-if="showSort" />
+      </transition>
     </div>
-    <transition name="slide">
-      <GamesFilters v-if="showFilter" />
-    </transition>
-    <transition name="slide">
-      <GameSort v-if="showSort" />
-    </transition>
     <ul class="gameList" :class="{ 'gameList--list': isList }">
       <li v-for="(game, index) in gameList" :key="index">
         <GameCard :game="game" :is-list="isList" />
@@ -76,7 +91,7 @@ export default {
 </template>
 <style scoped lang="scss">
 .gameList {
-  padding: 0;
+  padding: 88px 0 0;
   margin: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, 270px);
@@ -92,13 +107,23 @@ export default {
   &__wrapper {
     padding-bottom: 50px;
   }
+  &__fixed {
+    position: fixed;
+    width: 100%;
+    padding: 0px calc((100% - 1200px) / 2) 0;
+    top: 71px;
+    left: 0;
+    z-index: 11;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 2px 17px 8px 0px rgba(34, 60, 80, 0.2);
+  }
   &__header {
     display: flex;
     justify-content: space-between;
     height: 64px;
     align-items: center;
     border-bottom: 1px solid #f1f4f9;
-    margin-bottom: 24px;
+    background-color: #fff;
   }
   &__left {
     display: flex;
@@ -109,6 +134,12 @@ export default {
     color: white;
     &--active {
       background-color: #ec1d2d !important;
+    }
+  }
+  &__right {
+    display: flex;
+    .gameList__button:first-child {
+      margin-right: 16px;
     }
   }
 }
