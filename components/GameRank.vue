@@ -19,7 +19,7 @@ export default {
 </script>
 <template>
   <div class="rank" :class="{ 'rank--game': type === 'game' }">
-    <div class="rank__letter">{{ letter }}</div>
+    <div class="rank__letter">{{ letter.toLowerCase() }}</div>
     <div class="rank__tip">{{ tip }}</div>
   </div>
 </template>
@@ -40,8 +40,8 @@ export default {
     display: flex;
     border-radius: 100%;
     background-color: #fff;
-    font-family: DMC;
-    font-size: 24px;
+    font-family: 'PSFONT';
+    font-size: 20px;
     font-weight: bold;
     color: #264181;
     display: flex;

@@ -141,7 +141,7 @@ export default {
   }
   &__rank {
     span {
-      font-family: DMC;
+      font-family: PSFONT;
       font-weight: 700;
       font-size: 24px;
     }

@@ -17,7 +17,12 @@ export default {
     <NuxtLink :to="`/`" class="header__logo"
       ><span>P</span>eqoud<span>P</span>latinum</NuxtLink
     >
-    <div class="header__count">{{ platinumCount }}</div>
+    <div class="header__item">
+      <v-btn color="#264181" class="header__add">+</v-btn>
+    </div>
+    <div class="header__item">
+      <div class="header__count">{{ platinumCount }}</div>
+    </div>
   </header>
 </template>
 <style scoped lang="scss">
@@ -26,13 +31,13 @@ export default {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 0 calc(50% - 600px);
+  padding: 4px calc(50% - 600px);
   border-bottom: 1px solid #f1f4f9;
   background-color: #fff;
   z-index: 100;
-  display: flex;
+  display: grid;
   align-items: center;
-  justify-content: space-between;
+  grid-template-columns: 1fr 1fr 1fr;
   &__logo {
     height: 70px;
     display: flex;
@@ -53,6 +58,28 @@ export default {
     border-radius: 10px;
     padding: 4px 10px;
     color: #ffffff;
+    height: 36px;
+  }
+  &__add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    width: 64px;
+    height: 64px !important;
+    min-width: 36px !important;
+    border-radius: 100%;
+    font-family: 'PSFONT';
+    font-size: 36px;
+    font-weight: 700;
+  }
+  &__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:last-child {
+      justify-content: flex-end;
+    }
   }
 }
 </style>
